@@ -1,5 +1,5 @@
 function love.load()
-    print("Hello, console")
+    print("Hello, console") --What dose this line do?
 end
 
 function love.update(dt)
@@ -7,5 +7,5 @@ function love.update(dt)
 end
 
 function love.draw()
-    love.graphics.print("Die", 400, 300)
+    love.graphics.print("Die", 300, 275, 0, 10, 1)
 end
